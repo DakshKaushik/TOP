@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100vw;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(53, 163, 168); 
+    color: white;
+    padding: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+    margin: 15px 0;
+}
+.main-content{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+
+}
+.search{
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+.search-space{
+    background-color: rgb(208, 208, 204);
+    width: 500px;
+    height: 20px;
+    border-radius: 48px;
+}
+.main-header{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: aliceblue;   
+}
+.main-header-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    align-items: center;
+}
+.user{
+   gap: 8px; 
+   display: flex;
+}
+button{
+    padding: 10px 20px;
+    background-color:  rgb(53, 163, 168); 
+    color: aliceblue;
+    border-radius: 50px;
+    font-weight: 900;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.btns{
+    display: flex;
+    gap:12px;
+}
+.main-header-bottom{
+    display: flex;
+    gap:12px;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+}
+.greeting{
+    display: flex;
+    gap:12px
+}
+.content{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.project-item{
+    border:1px solid rgb(53, 163, 168); 
+    border-left: 6px solid orange; 
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.announcement-item{
+    border:1px solid rgb(53, 163, 168); 
+    border-left: 6px solid orange; 
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.announcements{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    place-items: start;
+}
