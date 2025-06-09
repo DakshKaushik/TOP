@@ -1,0 +1,9 @@
+form > div{
+    padding: 12px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

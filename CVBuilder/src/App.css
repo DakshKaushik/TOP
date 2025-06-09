@@ -1,0 +1,9 @@
+.appContainer{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 24px;
+  justify-content: space-between;
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+}
